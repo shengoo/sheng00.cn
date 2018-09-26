@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "sheng00.cn",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Qing Sheng <shengoo@hotmail.com>",
   "dependencies": {
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
@@ -28,6 +28,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/shengoo/sheng00.cn"
   }
 }
