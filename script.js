@@ -1,4 +1,4 @@
-// We'll save all chunks of audio in this array.
+// download
 const chunks = [];
 
 // We will set this to our MediaRecorder instance later.
@@ -31,6 +31,11 @@ const audioElement = document.createElement('audio')
   audioElement.setAttribute('src', url);
 audioElement.setAttribute('controls', true)
 document.body.append(audioElement)
+const link = document.createElement("a");
+              link.setAttribute("href", url);
+              link.setAttribute("download", 'test.wav');
+              document.body.appendChild(link); // Required for FF
+              link.click();
 };
 
 /**
