@@ -61,6 +61,10 @@ const stopRecording = () => {
     // Set the recorder's eventhandlers
     recorder.ondataavailable = saveChunkToRecording;
     recorder.onstop = saveRecording;
+	recorder.start();
+	setTimeout(() => {
+recorder.stop()
+}, 4000);
   });
 
   // Add event listeners to the start and stop button
