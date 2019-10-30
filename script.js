@@ -27,7 +27,9 @@ const saveRecording = () => {
 
   const url = URL.createObjectURL(blob);
 
+const audioElement = document.createElement('audio')
   audioElement.setAttribute('src', url);
+document.body.append(audioElement)
 };
 
 /**
@@ -47,7 +49,7 @@ const stopRecording = () => {
 
 // Wait until everything has loaded
 (function () {
-  audioElement = document.querySelector('.js-audio');
+  //audioElement = document.querySelector('.js-audio');
   startButton = document.querySelector('.js-start');
   stopButton = document.querySelector('.js-stop');
 
