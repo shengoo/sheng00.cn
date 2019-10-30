@@ -29,6 +29,7 @@ const saveRecording = () => {
 
 const audioElement = document.createElement('audio')
   audioElement.setAttribute('src', url);
+audioElement.setAttribute('controls', true)
 document.body.append(audioElement)
 };
 
