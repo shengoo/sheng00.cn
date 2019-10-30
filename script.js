@@ -64,6 +64,6 @@ const stopRecording = () => {
   });
 
   // Add event listeners to the start and stop button
-  startButton.addEventListener('mouseup', startRecording);
-  stopButton.addEventListener('mouseup', stopRecording);
+  startButton.addEventListener('touchend', startRecording);
+  stopButton.addEventListener('touchend', stopRecording);
 })();
