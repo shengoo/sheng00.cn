@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Qing Sheng <shengoo@hotmail.com>",
   "dependencies": {
-    "gatsby": "^2.0.8",
+    "gatsby": "^2.32.13",
     "gatsby-link": "^2.0.1",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gh-pages": "^2.0.0",
